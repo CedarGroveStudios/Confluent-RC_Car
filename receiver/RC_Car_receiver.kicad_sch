@@ -4574,10 +4574,10 @@
   (symbol (lib_id "Device:Antenna") (at 52.705 22.86 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid dca1d7db-c913-4d73-a2cc-fdc9651eda69)
-    (property "Reference" "AE?" (at 54.737 22.5865 0)
+    (property "Reference" "AE1" (at 54.737 22.2829 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "Antenna" (at 54.737 25.3616 0)
+    (property "Value" "Antenna" (at 54.737 24.7071 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "" (at 52.705 22.86 0)
@@ -4590,7 +4590,7 @@
     (instances
       (project "RC_Car_receiver"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "AE?") (unit 1)
+          (reference "AE1") (unit 1)
         )
       )
     )
@@ -5089,14 +5089,14 @@
     )
   )
 
-  (sheet (at 234.315 152.4) (size 12.7 12.065) (fields_autoplaced)
+  (sheet (at 240.665 156.21) (size 12.7 12.065) (fields_autoplaced)
     (stroke (width 0.1524) (type solid))
     (fill (color 0 0 0 0.0000))
     (uuid a399cfd3-4965-41eb-affa-ea14ab605a7b)
-    (property "Sheetname" "Waveforms" (at 234.315 151.6884 0)
+    (property "Sheetname" "Waveforms" (at 240.665 155.4984 0)
       (effects (font (size 1.27 1.27) bold) (justify left bottom))
     )
-    (property "Sheetfile" "waveforms.kicad_sch" (at 234.315 165.0496 0)
+    (property "Sheetfile" "waveforms.kicad_sch" (at 240.665 168.8596 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
     (instances

@@ -2,13 +2,18 @@
 
   (uuid baefe6c8-2f79-422e-ba6d-0a1c3ac885ed)
 
-  (paper "A4")
+  (paper "A")
+
+  (title_block
+    (title "Marcraft SE-1030 RC Car (Confluent)")
+    (date "2023-07-22")
+  )
 
   (lib_symbols
   )
 
 
-  (image (at 46.355 126.365)
+  (image (at 49.53 130.81)
     (uuid 22e25983-89be-4376-96b5-9c8b14cd941b)
     (data
       iVBORw0KGgoAAAANSUhEUgAAAyAAAAHgCAIAAADSZZ6iAAAAA3NCSVQICAjb4U/gAAAgAElEQVR4
@@ -667,7 +672,7 @@
       aDkgoHQ7NytsMndFCEnx/wFlcXvYwtHpAQAAAABJRU5ErkJggg==
     )
   )
-  (image (at 46.99 34.29)
+  (image (at 49.53 45.085)
     (uuid 32d23c30-3edb-41bb-9471-29cf829f9905)
     (data
       iVBORw0KGgoAAAANSUhEUgAAAyAAAAHgCAIAAADSZZ6iAAAAA3NCSVQICAjb4U/gAAAgAElEQVR4
@@ -1266,7 +1271,7 @@
       JwfHueho6nYWpcsBCVO3s7jHIr0rABX/H8732amnWb8RAAAAAElFTkSuQmCC
     )
   )
-  (image (at 44.45 78.74)
+  (image (at 49.53 88.265)
     (uuid 3eae6e24-323e-4e99-be07-c2cf8286b4fa)
     (data
       iVBORw0KGgoAAAANSUhEUgAAAyAAAAHgCAIAAADSZZ6iAAAAA3NCSVQICAjb4U/gAAAgAElEQVR4
@@ -2263,7 +2268,7 @@
       Oi9PFLrdLpuOA2oI3W6XT7g07spgMBT4/wF61KS5nKqiwwAAAABJRU5ErkJggg==
     )
   )
-  (image (at 127 128.905)
+  (image (at 132.08 130.81)
     (uuid 7c18e431-c26d-4fe7-acf0-226753ab1e5d)
     (data
       iVBORw0KGgoAAAANSUhEUgAAAyAAAAHgCAIAAADSZZ6iAAAAA3NCSVQICAjb4U/gAAAgAElEQVR4
@@ -2936,7 +2941,7 @@
       AAAASUVORK5CYII=
     )
   )
-  (image (at 125.095 32.385)
+  (image (at 132.08 45.085)
     (uuid 88d953bb-3ae4-432e-9bfb-883efa0d89e7)
     (data
       iVBORw0KGgoAAAANSUhEUgAAAyAAAAHgCAIAAADSZZ6iAAAAA3NCSVQICAjb4U/gAAAgAElEQVR4
@@ -3528,7 +3533,7 @@
       6CClXI4AAAAASUVORK5CYII=
     )
   )
-  (image (at 126.365 81.28)
+  (image (at 132.08 88.265)
     (uuid 9cb4ed22-5228-4044-b63b-7df4b278db1a)
     (data
       iVBORw0KGgoAAAANSUhEUgAAAyAAAAHgCAIAAADSZZ6iAAAAA3NCSVQICAjb4U/gAAAgAElEQVR4
@@ -4526,7 +4531,7 @@
       /wH7O8rdaDEeWgAAAABJRU5ErkJggg==
     )
   )
-  (image (at 50.165 172.72)
+  (image (at 49.53 173.99)
     (uuid c248216d-8cac-49dc-a893-1e80117a408e)
     (data
       iVBORw0KGgoAAAANSUhEUgAAAyAAAAHgCAIAAADSZZ6iAAAAA3NCSVQICAjb4U/gAAAgAElEQVR4
@@ -5352,7 +5357,7 @@
       YII=
     )
   )
-  (image (at 126.365 173.99)
+  (image (at 132.08 173.99)
     (uuid cb2d7f2d-1e45-4726-bc2c-84324e07910c)
     (data
       iVBORw0KGgoAAAANSUhEUgAAAyAAAAHgCAIAAADSZZ6iAAAAA3NCSVQICAjb4U/gAAAgAElEQVR4
@@ -5943,5 +5948,50 @@
       oku/q87BcW5uNibACvzA7sty2zk4zs3chwc76Rwc5SZFWwJgBMC+4uNsLsKzJ526XScc76JzcJyb
       jlK3Y5M1HRAjdTs2a2zCuwIAZPh/inEAW5IKuLEAAAAASUVORK5CYII=
     )
+  )
+
+  (text "TP1 Detector Out\nAC Coupled" (at 41.275 103.505 0)
+    (effects (font (size 1.27 1.27) (thickness 0.254) bold (color 255 255 255 1)) (justify left bottom))
+    (uuid 1072cce3-30c1-4cb4-8dfa-82054f17d2e1)
+  )
+  (text "TP1 Detector Out\nDC Coupled" (at 40.64 59.69 0)
+    (effects (font (size 1.27 1.27) (thickness 0.254) bold (color 255 255 255 1)) (justify left bottom))
+    (uuid 1ce68c5c-66fd-46ba-bb5b-69500b56c254)
+  )
+  (text "TP2 AF Amp Out" (at 40.64 146.05 0)
+    (effects (font (size 1.27 1.27) (thickness 0.254) bold (color 255 255 255 1)) (justify left bottom))
+    (uuid 3e4f840e-ef94-40c6-a5e5-43a2a485537c)
+  )
+  (text "Transmitter OFF" (at 38.735 20.955 0)
+    (effects (font (size 1.905 1.905) (thickness 0.254) bold) (justify left bottom))
+    (uuid 4196ddc4-3ca9-425c-8910-bd86807ececa)
+  )
+  (text "TP3 Logic Converter Out" (at 121.285 189.23 0)
+    (effects (font (size 1.27 1.27) (thickness 0.254) bold (color 255 255 255 1)) (justify left bottom))
+    (uuid 517782da-2f2a-435e-923a-a3996b9fe01c)
+  )
+  (text "TP3 Logic Converter Out" (at 36.83 189.23 0)
+    (effects (font (size 1.27 1.27) (thickness 0.254) bold (color 255 255 255 1)) (justify left bottom))
+    (uuid 5d0acf3d-9065-4793-b2d7-f4ff54f0bea2)
+  )
+  (text "TP1 Detector Out\nAC Coupled" (at 124.46 104.14 0)
+    (effects (font (size 1.27 1.27) (thickness 0.254) bold (color 255 255 255 1)) (justify left bottom))
+    (uuid 76deec83-745b-484f-b328-2befb2fcf313)
+  )
+  (text "Transmitter ON" (at 120.015 20.955 0)
+    (effects (font (size 1.905 1.905) (thickness 0.254) bold) (justify left bottom))
+    (uuid 78fecb1f-f223-4cf7-8250-e240b72fbc5e)
+  )
+  (text "TP1 Detector Out\nDC Coupled" (at 123.825 60.325 0)
+    (effects (font (size 1.27 1.27) (thickness 0.254) bold (color 255 255 255 1)) (justify left bottom))
+    (uuid 90439478-b224-4e8c-b1de-0aed3c6f89aa)
+  )
+  (text "All signals referenced to GND\n(not GNDA)" (at 194.945 170.18 0)
+    (effects (font (size 1.905 1.905) (thickness 0.254) bold) (justify left bottom))
+    (uuid b8977212-bf52-4c9b-b391-c7bb8f57bf1c)
+  )
+  (text "TP2 AF Amp Out" (at 125.095 146.05 0)
+    (effects (font (size 1.27 1.27) (thickness 0.254) bold (color 255 255 255 1)) (justify left bottom))
+    (uuid c2c8a100-6473-4c7e-a651-4871fb04297e)
   )
 )
