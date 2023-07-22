@@ -5089,6 +5089,23 @@
     )
   )
 
+  (sheet (at 234.315 152.4) (size 12.7 12.065) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid a399cfd3-4965-41eb-affa-ea14ab605a7b)
+    (property "Sheetname" "Waveforms" (at 234.315 151.6884 0)
+      (effects (font (size 1.27 1.27) bold) (justify left bottom))
+    )
+    (property "Sheetfile" "waveforms.kicad_sch" (at 234.315 165.0496 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "RC_Car_receiver"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55" (page "2"))
+      )
+    )
+  )
+
   (sheet_instances
     (path "/" (page "1"))
   )
